@@ -1,0 +1,16 @@
+{
+  "name": "matchingpairs",
+  "version": "1.0.0",
+  "description": "Build a responsive web-based \"Memory Matching Card Game\" using HTML, CSS, and JavaScript (React if possible).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

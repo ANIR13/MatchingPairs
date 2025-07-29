@@ -1,36 +1,24 @@
-Build a responsive web-based "Memory Matching Card Game" using HTML, CSS, and JavaScript (React if possible).
+# Memory Matching Card Game
 
-🃏 Game Mechanics:
+A responsive web-based memory matching game built with React for the frontend and Express for the backend.
 
-Display a grid of cards (e.g., 4x4 or 6x4).
+## Features
+- Grid of cards with emoji images
+- Animated card flips with match logic
+- Attempt counter and matched pairs tracking
+- Timer with best time record
+- Responsive design for desktop and mobile
+- Restart button to reset the game
 
-Each card has a hidden image. There are exactly two of each image.
+## Running the Game
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the server:
+   ```bash
+   node server.js
+   ```
+3. Open your browser at [http://localhost:3000](http://localhost:3000) to play.
 
-When the game starts, all cards are face down.
-
-The player clicks to flip two cards at a time:
-
-If the images match, keep both cards face up and marked as "matched".
-
-If they don’t match, flip them back down after 1 second.
-
-Track number of attempts and matched pairs.
-
-Show a win message when all pairs are matched.
-
-🎨 Design Requirements:
-
-Use a clean and modern design with animations on card flips.
-
-Make the layout responsive for desktop and mobile.
-
-Add a "Restart" button to reset the game.
-
-🧠 Optional Enhancements:
-
-Add timer and best score tracking.
-
-Add sound effects for flipping/matching.
-
-Use emoji or animal images for cards.
-
+Optional enhancements such as sound effects can be added by extending the `public/index.jsx` file.

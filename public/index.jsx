@@ -11,6 +11,7 @@ const difficulties = {
   hard: 18
 };
 
+
 function shuffle(array) {
   return array
     .concat(array)
@@ -49,6 +50,7 @@ function MemoryGame() {
   const timerRef = useRef(null);
   const flipAudio = useRef(new Audio('https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg'));
   const matchAudio = useRef(new Audio('https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg'));
+
 
   useEffect(() => {
     startTimer();
@@ -132,6 +134,7 @@ function MemoryGame() {
       <p>Attempts: {attempts} | Matched: {matches}/{difficulties[difficulty]}</p>
       <p>Time: {time}s {bestTime !== null && `(Best: ${bestTime}s)`}</p>
       {matches === difficulties[difficulty] && <p>You win!</p>}
+
     </div>
   );
 }

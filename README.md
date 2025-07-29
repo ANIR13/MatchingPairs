@@ -6,6 +6,10 @@ A responsive web-based memory matching game built with React for the frontend an
 - Grid of cards with emoji images
 - Animated card flips with match logic
 - Attempt counter and matched pairs tracking
+- Timer with best time record (stored per difficulty)
+- Difficulty selector (easy, medium, hard)
+- Responsive design for desktop and mobile
+- Sound effects on flip and match
 - Timer with best time record
 - Responsive design for desktop and mobile
 - Restart button to reset the game
@@ -21,4 +25,5 @@ A responsive web-based memory matching game built with React for the frontend an
    ```
 3. Open your browser at [http://localhost:3000](http://localhost:3000) to play.
 
+Sound effects and best times are stored in your browser. To clear scores, use your browser's storage settings.
 Optional enhancements such as sound effects can be added by extending the `public/index.jsx` file.
